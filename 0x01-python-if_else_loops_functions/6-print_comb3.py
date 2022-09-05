@@ -4,6 +4,4 @@ for digit1 in range (0, 9):
 		if digit1 == 8:
 			print("{:d}{:d}".format(digit1, digit2))
 			break
-		print("{:d}{:d}".format(digit1, digit2))
-		break
 	print("{:d}{:d}".format(digit1, digit2), end=", ")
